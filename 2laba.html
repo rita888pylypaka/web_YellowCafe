@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YellowCafe — Мережа кав'ярень</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./2laba.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+       <div class="logo photo-box" aria-label="Фото лого" role="img" style="background-image: url('../photo/photo_2025-11-03_12-55-31.jpg');"></div>
+
+      <nav id="main-nav" class="nav" aria-label="Основна навігація">
+        <a href="#home">Головна</a>
+        <a href="#about">Про нас</a>
+        <a href="#locations">Локації</a>
+        <a href="#pricing">Ціни</a>
+        <div class="dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Продукція</button>
+          <ul class="submenu" aria-label="Підменю продукції">
+            <li><a href="#products">Напої</a></li>
+            <li><a href="#products">Солодощі</a></li>
+            <li><a href="#products">Випічка</a></li>
+            <li><a href="#products">Ланч‑група</a></li>
+            <li><a href="#products">Сніданки</a></li>
+          </ul>
+        </div>
+        <div class="nav-social mobile-only">
+          <a href="#" aria-label="Instagram" class="ic" style="background-image: url('photo/photo_2025-11-04_11-34-12.jpg'); background-size: cover; background-position: center;"></a>
+          <a href="#" aria-label="Facebook" class="ic" style="background-image: url('photo/photo_2025-11-04_11-34-19.jpg'); background-size: cover; background-position: center;"></a>
+        </div>
+      </nav>
+
+      <div class="header-right">
+        <a class="contact-link desktop-only" href="#contact">Контакти</a>
+        <div class="social desktop-only">
+           <a href="#" aria-label="Instagram" class="ic" style="background-image: url('../photo/photo_2025-11-04_11-34-12.jpg'); background-size: cover; background-position: center;"></a>
+          <a href="#" aria-label="Facebook" class="ic" style="background-image: url('../photo/photo_2025-11-04_11-34-19.jpg'); background-size: cover; background-position: center;"></a>
+        </div>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Відкрити меню">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-left-bar" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="hero-title-block">
+            <h1 class="hero-brand">YellowCafe</h1>
+            <p class="hero-subtitle">Мережа кав'ярень</p>
+          </div>
+          <p class="lead">Ми — люди, які довершують, розвивають, чекають, запам'ятовують улюблений напій для фрази «Вам як завжди?»</p>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-line"></div>
+              <div class="num">39</div>
+              <div class="label">чоловіків в команді</div>
+            </div>
+            <div class="stat">
+              <div class="stat-line"></div>
+              <div class="num">6</div>
+              <div class="label">закладів у Вінниці</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-circle" aria-hidden="true"></div>
+          <video class="hero-photo" autoplay loop muted playsinline aria-label="Головне відео">
+            <source src="photo/2909914-uhd_3840_2024_24fps.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-oval" aria-hidden="true"></div>
+        <div class="about-media">
+          <div class="about-photos">
+              <div class="photo tall" role="img" aria-label="Фасад кавʼярні" style="background-image: url('../photo/20221120155821618about_Sharikava_1_w1000_opt.webp');"></div>
+            <div class="photo wide" role="img" aria-label="Інтерʼєр кавʼярні" style="background-image: url('../photo/photo_2025-11-04_11-54-28.jpg');"></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">Про нас</h2>
+          <p ><strong>YellowCafe</strong> — це мережа кав'ярень у трьох областях: Вінницькій, Житомирській, Рівненській. Ми постійно розвиваємось та змінюємось, що і робить нас нами.</p>
+        <div class="about-square" ></div> 
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="locations" id="locations">
+      <div class="container locations-inner">
+        <h2 class="section-title center">Локації</h2>
+        <div class="locations-content">
+         <div class="map" role="img" aria-label="Карта України з виділеною Вінницькою областю" style="background: #fff url('../photo/photo_2025-11-03_12-55-55.jpg') center/contain no-repeat;"></div>
+          <div class="region">
+            <div class="region-header">
+              <h3>Вінницька область</h3>
+              <span class="underline"></span>
+            </div>
+            <div class="addresses">
+              <div class="col">
+                <div class="row"><span class="arrow">→</span> вул. Замостянська, 26</div>
+                <div class="row"><span class="arrow">→</span> вул. Оводова, 18</div>
+                <div class="row"><span class="arrow">→</span> пл. Калічанська, 2</div>
+              </div>
+              <div class="col">
+                <div class="row"><span class="arrow">→</span> пл. Калічанська, 2</div>
+                <div class="row"><span class="arrow">→</span> вул. Гоголя, 2</div>
+                <div class="row"><span class="arrow">→</span> просп. Космонавтів, 20</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="products" id="products">
+      <div class="container products-inner">
+        <h2 class="section-title center">Наша продукція</h2>
+        <div class="products-grid">
+          <article class="product">
+            <div class="img" aria-hidden="true" style="background-image: url('../photo/20241214205940426drinks-new-big-dec2024-v1.webp');"></div>
+            <h4>Напої</h4>
+            <p>Ми варимо каву не тому, щоб це стало повсякденністю. Ми варимо каву, тому що знаємось на ній.</p>
+          </article>
+          <article class="product">
+            <div class="img" aria-hidden="true" style="background-image: url('../photo/20241214215637139nuggi-dec2024-v1.webp');"></div>
+            <h4>Солодощі</h4>
+            <p>Створили широкий асортимент власної продукції, щоб кожен міг обрати собі щось до вподоби.</p>
+          </article>
+          <article class="product">
+            <div class="img" aria-hidden="true" style="background-image: url('../photo/20241218201510977baking-big-dec2024-v1.webp');"></div>
+            <h4>Випічка</h4>
+            <p>Свіжа випічка щодня — саме те, що ти знайдеш у нас. Від класичного круасана до круасан-ролу.</p>
+          </article>
+          <article class="product">
+            <div class="img" aria-hidden="true" style="background-image: url('../photo/20240706204107689lunch_page_sum022024.webp');"></div>
+            <h4>Ланч‑група</h4>
+            <p>Сніданок, обід чи вечеря — заходь ласувати смачним, маємо солоні круасани, бейгли та пай.</p>
+          </article>
+          <article class="product span-2">
+            <div class="img" aria-hidden="true" style="background-image: url('../photo/20250421111630283snidanki_productspage.webp');"></div>
+            <h4>Сніданки</h4>
+            <p>Готуємо, удосконалюємо, додаємо, змінюємо… Це все про нас та наші смачні сніданки.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container pricing-inner">
+        <h2 class="section-title center">Ціни на послуги</h2>
+        <p class="pricing-subtitle center">Оберіть найкращий варіант для себе</p>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Базовий</h3>
+              <div class="pricing-price">
+                <span class="price-amount">150</span>
+                <span class="price-currency">₴</span>
+              </div>
+              <p class="pricing-period">за місяць</p>
+            </div>
+            <ul class="pricing-features">
+              <li>Кава на вибір</li>
+              <li>Випічка (1 шт)</li>
+              <li>Wi-Fi</li>
+              <li>Зручне робоче місце</li>
+            </ul>
+            <button class="pricing-btn">Обрати план</button>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="pricing-badge">Популярний</div>
+            <div class="pricing-header">
+              <h3 class="pricing-title">Стандарт</h3>
+              <div class="pricing-price">
+                <span class="price-amount">280</span>
+                <span class="price-currency">₴</span>
+              </div>
+              <p class="pricing-period">за місяць</p>
+            </div>
+            <ul class="pricing-features">
+              <li>Кава на вибір (2 чашки)</li>
+              <li>Випічка (2 шт)</li>
+              <li>Wi-Fi</li>
+              <li>Зручне робоче місце</li>
+              <li>Знижка 10% на додаткові напої</li>
+            </ul>
+            <button class="pricing-btn">Обрати план</button>
+          </div>
+
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3 class="pricing-title">Преміум</h3>
+              <div class="pricing-price">
+                <span class="price-amount">450</span>
+                <span class="price-currency">₴</span>
+              </div>
+              <p class="pricing-period">за місяць</p>
+            </div>
+            <ul class="pricing-features">
+              <li>Необмежена кава</li>
+              <li>Випічка (3 шт щодня)</li>
+              <li>Wi-Fi</li>
+              <li>Привілейоване місце</li>
+              <li>Знижка 20% на всі напої</li>
+              <li>Безкоштовні дегустації</li>
+            </ul>
+            <button class="pricing-btn">Обрати план</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-info">
+          <h2 class="section-title">Контакти</h2>
+          <p>Зв'яжіться з нами, і ми з радістю відповімо на всі ваші запитання!</p>
+          <div class="contact-details">
+            <p><strong>Адреса:</strong><br>м. Вінниця, вул. Гоголя, 2</p>
+            <p><strong>Години роботи:</strong><br>Пн‑Нд: 8:00 — 22:00</p>
+            <p><strong>Телефон:</strong><br>+38 (050) 555 55 55</p>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <fieldset class="form-fieldset">
+            <legend>Особиста інформація</legend>
+            
+            <div class="form-group">
+              <label for="name">Ім'я *</label>
+              <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="example@email.com">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Телефон *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+38 (XXX) XXX XX XX">
+            </div>
+
+            <div class="form-group">
+              <label for="birthdate">Дата народження</label>
+              <input type="date" id="birthdate" name="birthdate">
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <legend>Тип звернення</legend>
+            
+            <div class="form-group radio-group">
+              <label>Оберіть тип звернення:</label>
+              <div class="radio-options">
+                <label class="radio-label">
+                  <input type="radio" name="request-type" value="question" checked>
+                  <span>Питання</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="request-type" value="complaint">
+                  <span>Скарга</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="request-type" value="suggestion">
+                  <span>Пропозиція</span>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <legend>Повідомлення</legend>
+            
+            <div class="form-group">
+              <label for="message">Ваше повідомлення *</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Напишіть ваше повідомлення тут..."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="file">Прикріпити файл (за потреби)</label>
+              <input type="file" id="file" name="file" accept="image/*,.pdf,.doc,.docx">
+            </div>
+          </fieldset>
+
+          <fieldset class="form-fieldset">
+            <legend>Додаткові налаштування</legend>
+            
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="newsletter" value="yes">
+                <span>Підписатися на розсилку новин</span>
+              </label>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input type="checkbox" name="privacy" value="yes" required>
+                <span>Я погоджуюся з обробкою персональних даних *</span>
+              </label>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Пароль для безпеки (опціонально)</label>
+              <input type="password" id="password" name="password" placeholder="Введіть пароль">
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn submit-btn">Відправити</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+       <div class="logo photo-box" aria-label="Фото лого" role="img" style="background-image: url('../photo/photo_2025-11-03_12-55-31.jpg');"></div>
+      <div class="footer-cols">
+        <ul>
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#products">Напої</a></li>
+          <li><a href="#products">Солодощі</a></li>
+          <li><a href="#products">Ланч‑група</a></li>
+        </ul>
+        <ul>
+          <li><a href="#products">Випічка</a></li>
+          <li><a href="#products">Сніданки</a></li>
+          <li><a href="#locations">Локації</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+      <div class="footer-right">
+        <div class="footer-social">
+          <a href="#" class="ic" aria-label="Instagram" style="background-image: url('photo/photo_2025-11-04_11-34-12.jpg'); background-size: cover; background-position: center;"></a>
+          <a href="#" class="ic" aria-label="Facebook" style="background-image: url('photo/photo_2025-11-04_11-34-19.jpg'); background-size: cover; background-position: center;"></a>
+        </div>
+        <a href="#" class="review-btn"><span>→</span> Залишити відгук</a>
+        <div class="footer-note">Завітайте до нас: м. Вінниця, вул. Гоголя, 2<br>Пн‑Нд: 8:00 — 22:00 | +38 (050) 555 55 55</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      const btn = document.querySelector('.menu-toggle');
+      const nav = document.getElementById('main-nav');
+      if (!btn || !nav) return;
+      btn.addEventListener('click', function(){
+        const opened = nav.classList.toggle('open');
+        btn.setAttribute('aria-expanded', opened ? 'true' : 'false');
+      });
+    })();
+  </script>
+</body>
+</html>
